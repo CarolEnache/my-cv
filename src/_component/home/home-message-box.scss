@@ -41,6 +41,8 @@ input.#{$class}-radio[type=radio] {
 .#{$class}-box-info {
   padding: 0.4rem;
   background-color: $color-white;
+  //need to find out why is this line giving an error
+  // @extend %noselect;
 }
 
 .#{$class}-box-info {
@@ -57,4 +59,5 @@ input.#{$class}-radio[type=radio] {
 
 .#{$class}-box-close {
   border-bottom-right-radius: 0.4rem;
+  cursor: pointer;
 }
