@@ -5,7 +5,8 @@
     .home-message Click the above icons to reveal
     .home-message-box-header
       .home-message-box-info Click to visit link
-      .home-message-box-close &times;
+      .home-message-box-close
+        label(for="message-default") &times;
     each social, key in curriculum.author.social
       input.home-message-radio(type="radio", name="message-box", id="message-box-id" + key)
       .home-message
