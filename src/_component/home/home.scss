@@ -39,4 +39,5 @@ $class: 'home';
 .#{$class}-title {
   @extend %uppercase;
   font-size: 2rem;
+  font-family: 'Open Sans';
 }
