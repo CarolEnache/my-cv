@@ -33,6 +33,7 @@ $class: 'home';
   display: inline-flex;
   max-width: 80vw;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .#{$class}-title {
