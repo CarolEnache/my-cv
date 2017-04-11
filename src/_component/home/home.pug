@@ -2,8 +2,8 @@
   .home-wrapper
     h1.home-name #{curriculum.author.name}
     h2.home-name #{curriculum.author.title}
-    ul
-      li
-        each social in curriculum.author.social
+    ul.home-social
+      each social in curriculum.author.social
+        li.home-item
           a(href="social.url")
-            span(class='resume-icon' + social.icon)
+            span(class='resume-icon-' + social.icon)
