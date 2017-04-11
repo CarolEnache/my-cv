@@ -2,5 +2,9 @@
   "page": {
     "pageTitle": "Welcome to my Curriculum Vitae",
     "pageDescription": "Carol Enache's curriculum vitae"
+  },
+  "author": {
+    "name": "Carol Enache",
+    "title": "Web Developer"
   }
 }
