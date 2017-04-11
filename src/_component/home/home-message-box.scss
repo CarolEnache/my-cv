@@ -1,0 +1,27 @@
+$class: 'home-message';
+
+.#{$class}-radio + .home-message {
+  display: none;
+}
+
+.#{$class}-radio:checked + .home-message {
+  display: inherit;
+}
+
+input.#{$class}-radio[type=radio] {
+  display: none;
+}
+
+.#{$class}-body {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.#{$class}-link,
+.#{$class}-link:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: $color-white;
+}

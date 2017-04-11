@@ -1,3 +1,5 @@
+@import 'home-message-box';
+
 $class: 'home';
 
 %uppercase {
@@ -29,6 +31,11 @@ $class: 'home';
 .#{$class}-link {
   font-size: 3rem;
   text-decoration: none;
+  color: $color-white;
+  &:active,
+  &:focus {
+    color: $color-malibu;
+  }
 }
 
 .#{$class}-social{
