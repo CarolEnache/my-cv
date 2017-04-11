@@ -50,7 +50,7 @@ gulp.task('dev', gulp.series(
   'image',
   'sass',
   'pug',
-  'template',
+  // 'template',
   'watch'
 ));
 
@@ -62,7 +62,7 @@ gulp.task('build', gulp.series(
   'image',
   'sass',
   'pug',
-  'template'
+  // 'template'
 ));
 
 // Default gulp task

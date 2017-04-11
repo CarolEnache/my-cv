@@ -2,9 +2,12 @@
 
 import fs from 'fs';
 import path from 'path';
-import { getJsonData } from './util/util';
+import {
+  getJsonData
+}
+from './util/util';
 
-const pug = ({
+const template = ({
   gulp,
   taskTarget,
   config,
@@ -16,8 +19,10 @@ const pug = ({
   const dataPath = path.join(dir.source, dir.data);
   const inlinePath = path.join(taskTarget, 'inline.css');
 
-  gulp.task('pug', () => {
-    let data = getJsonData({dataPath}) || {};
+  gulp.task('template', () => {
+    let data = getJsonData({
+      dataPath
+    }) || {};
 
     return gulp
       // target pug files
@@ -32,7 +37,7 @@ const pug = ({
       // compile pug to html
       .pipe(plugins.pug({
         // compress if in production
-        pretty: args.production ? false: true,
+        pretty: args.production ? false : true,
         // Make data available to pug
         locals: {
           config,
@@ -57,4 +62,4 @@ const pug = ({
   });
 };
 
-export default pug;
+export default template;
