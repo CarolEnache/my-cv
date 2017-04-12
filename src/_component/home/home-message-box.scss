@@ -22,7 +22,7 @@ input.#{$class}-radio[type=radio] {
 
 .#{$class}-body {
   display: inline-block;
-  border: 0.5rem solid $color-white;
+  border: 0.2rem solid $color-white;
   border-radius: 0.5rem;
   padding: 0.8rem;
   margin-top: 0.5rem;
@@ -35,7 +35,7 @@ input.#{$class}-radio[type=radio] {
   text-decoration: none;
   color: $color-white;
 }
-
+ 
 .#{$class}-box-header {
   position: absolute;
   left: 10%;

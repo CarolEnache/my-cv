@@ -30,7 +30,7 @@ $class: 'home';
 }
 
 .#{$class}-link {
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color: $color-white;
   cursor: pointer;
@@ -44,6 +44,7 @@ $class: 'home';
   display: inline-flex;
   max-width: 80vw;
   flex-wrap: wrap;
+  margin-top: 3rem;
   justify-content: center;
 }
 
