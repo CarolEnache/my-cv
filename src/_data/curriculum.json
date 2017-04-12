@@ -3,25 +3,30 @@
     "pageTitle": "Welcome to my Curriculum Vitae",
     "pageDescription": "Curriculum Vitae - Carol Enache"
   },
-  "author": {
-    "name": "Carol Enache",
-    "title": "Web Developer",
-    "social": [{
-      "icon": "facebook2",
-      "url": "https://www.facebook.com/enache.carol"
-    }, {
-      "icon": "twitter",
-      "url": "https://twitter.com/enachecarol"
-    }, {
-      "icon": "github",
-      "url": "https://github.com/CarolEnache"
-    }, {
-      "icon": "skype",
-      "url": "skype:e.carol.?call"
-    }, {
-      "icon": "linkedin",
-      "url": "https://www.linkedin.com/in/carol-enache-59504294/"
+  "section": {
+    "home": {
+      "author": {
+        "name": "Carol Enache",
+        "title": "Web Developer",
+        "social": [{
+          "icon": "facebook2",
+          "url": "https://www.facebook.com/enache.carol"
+        }, {
+          "icon": "twitter",
+          "url": "https://twitter.com/enachecarol"
+        }, {
+          "icon": "github",
+          "url": "https://github.com/CarolEnache"
+        }, {
+          "icon": "skype",
+          "url": "skype:e.carol.?call"
+        }, {
+          "icon": "linkedin",
+          "url": "https://www.linkedin.com/in/carol-enache-59504294/"
 
-    }]
+        }]
+      }
+
+    }
   }
 }

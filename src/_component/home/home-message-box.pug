@@ -8,7 +8,7 @@
         label.home-message-box-close(for="message-default") &times;
         
         
-    each social, key in curriculum.author.social
+    each social, key in data.curriculum.section.home.author.social
       input.home-message-radio(type="radio", name="message-box", id="message-box-id-" + key)
       .home-message
         a.home-message-link(href=social.url, target="_blank") #{social.url}
