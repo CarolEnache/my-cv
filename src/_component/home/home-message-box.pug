@@ -10,6 +10,6 @@
         
         
     each social, key in curriculum.author.social
-      input.home-message-radio(type="radio", name="message-box", id="message-box-id" + key)
+      input.home-message-radio(type="radio", name="message-box", id="message-box-id-" + key)
       .home-message
         a.home-message-link(href=social.url, target="_blank") #{social.url}
