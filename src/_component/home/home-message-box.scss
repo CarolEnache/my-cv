@@ -1,11 +1,19 @@
 $class: 'home-message';
 
+.#{$class} {
+  color: $color-white;
+}
+
 .#{$class}-radio + .#{$class} {
   display: none;
 }
 
+#message-default.#{$class}-radio:checked + .#{$class} + .#{$class}-box-header {
+  display: none;
+}
+
 .#{$class}-radio:checked + .#{$class} {
-  display: inherit;
+   display:inherit;
 }
 
 input.#{$class}-radio[type=radio] {
@@ -14,6 +22,7 @@ input.#{$class}-radio[type=radio] {
 
 .#{$class}-body {
   display: inline-block;
+  border: 0.5rem solid $color-white;
   border-radius: 0.5rem;
   padding: 0.8rem;
   margin-top: 0.5rem;
@@ -51,6 +60,7 @@ input.#{$class}-radio[type=radio] {
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
+  line-height: 1.5rem;
 }
 
 .#{$class}-box {
@@ -60,4 +70,6 @@ input.#{$class}-radio[type=radio] {
 .#{$class}-box-close {
   border-bottom-right-radius: 0.4rem;
   cursor: pointer;
+  width: 2.5rem;
+  font-size: 1.5rem;
 }
