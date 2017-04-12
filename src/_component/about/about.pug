@@ -1,7 +1,9 @@
 .about
   .about-wrapper
-    .about-content
-      .about-avatar
-    .about-content
-      .about-title
-      .about-paragraph
+    each content in section.about.content
+      .about-content
+      if content.type === 'avatar'
+        .about-avatar
+      .about-content
+        .about-title
+        .about-paragraph
