@@ -1,0 +1,62 @@
+$class: 'about';
+
+.#{$class} {
+  padding: 5vw;
+}
+
+%avatar-common {
+  border-radius:50%;
+  display: block;
+}
+
+.#{$class}-avatar {
+  @extend %avatar-common;
+  width: 100%;
+  border: 0.5rem solid $color-white;
+}
+
+.#{$class}-avatar-wrapper {
+  @extend %avatar-common;
+  max-width: 50%;
+  margin: 1rem auto;
+  border: 0.5rem solid $color-blue-zodiac;
+}
+
+.#{$class}-title {
+  color: $color-blue-zodiac;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.#{$class}-paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 2rem;
+  padding: 0.7rem 0;
+}
+
+.#{$class}-link {
+  border:0.1rem solid $color-blue-zodiac;
+  color: $color-danube;
+  padding: 1rem auto;
+  width: 80%;
+  margin: 1rem auto;
+  display: inline-flex;
+  // justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  border-radius:0.6rem;
+  text-decoration: none;
+}
+
+.#{$class}-link-list{
+  text-align: center;
+}
+
+.#{$class}-link-description{
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2;
+}
