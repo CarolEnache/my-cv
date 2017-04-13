@@ -9,6 +9,9 @@ $class: 'about';
   display: block;
 }
 
+.#{$class}-section-title {
+  @extend %section-title;
+}
 .#{$class}-avatar {
   @extend %avatar-common;
   max-width: 100%;

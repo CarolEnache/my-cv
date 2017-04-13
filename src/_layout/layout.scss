@@ -23,6 +23,13 @@ html, body {
    min-height: 100vh;
  }
 
+ %section-title {
+   @extend %noselect;
+
+   color: $color-denim;
+   font-size: 4rem;
+ }
+
  a {
    color: $color-charlote;
  }
