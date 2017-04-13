@@ -9,9 +9,11 @@
         h1.about-title #{content.title}
         each paragraph in content.text
           p.about-paragraph #{paragraph}
-      //- if content.type === 'link'
-      //-   h2.about-title #{content.title}
-      //-   each paragraph in content.text
-      //-     p.about-paragraph #{content.paragraph}
-      //-   each link in content.link
-      //-     a(href=link.url)
+      if content.type === 'link'
+        h2.about-title #{content.title}
+        each paragraph in content.text
+          p.about-paragraph #{paragraph}
+        each link in content.link
+          a.about-link(href=link.url)
+            span.about-link-description #{link.text}
+            span(class=`resume-icon-${link.icon}`)

@@ -20,7 +20,9 @@
       }, {
         "type": "link",
         "title": "Portfolio",
-        "text": "To discover more about my work and research prease visit my Blog. ",
+        "text": [
+          "To discover more about my work and research prease visit my Blog. "
+        ],
         "link": [{
           "url": "https://github.com/CarolEnache/my-resume",
           "icon": "rss2",
@@ -29,7 +31,9 @@
       }, {
         "type": "text",
         "title": "Achivement",
-        "text": "Lorem ipsum dolor sit amet, at vim modo quot rebum.Lorem ipsum dolor sit amet, at vim modo quot rebum.Lorem ipsum dolor sit amet, at vim modo quot rebum."
+        "text": [
+          "Lorem ipsum dolor sit amet, at vim modo quot rebum.Lorem ipsum dolor sit amet, at vim modo quot rebum.Lorem ipsum dolor sit amet, at vim modo quot rebum."
+        ]
       }]
     },
     "home": {
