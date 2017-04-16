@@ -4,6 +4,9 @@
     "pageDescription": "Curriculum Vitae - Carol Enache"
   },
   "section": {
+    "experience": {
+      "title": "experinece"
+    },
     "about": {
       "title": "#about me",
       "content": [{

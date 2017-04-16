@@ -1,7 +1,7 @@
 $class: 'about';
 
 .#{$class} {
-  padding: 5vw;
+  @extend %section-container;
 }
 
 %avatar-common {
@@ -62,4 +62,5 @@ $class: 'about';
   text-align: center;
   font-size: 1.5rem;
   line-height: 2;
+  padding:  0 0.5rem;
 }
