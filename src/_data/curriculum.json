@@ -5,7 +5,22 @@
   },
   "section": {
     "experience": {
-      "title": "experinece"
+      "title": "experinece",
+      "content": [{
+        "type": "list",
+        "list": [{
+          "date": "2016 Jun - present",
+          "jobTitle": "Web developer",
+          "company": "Smart Yii Limited",
+          "summary": "Web developer & designer",
+          "responsability": [
+            "Lorem ipsum dolor sit amet, pri impedit noluisse accommodare id. Malorum commune eu pri",
+            "Solet deseruisse et est, ex eum animal convenire petentium. Nam amet enim praesent ad.",
+            "Cum eu sumo ipsum scribentur, ei dolorem incorrupte vis. Democritum definiebas eum te, eius vulputate vituperatoribus ex eum",
+            "Vix ut alia liber inermis, quo patrioque aliquando vituperatoribus eu. Ea vim rebum nostrum tacimates,"
+          ]
+        }]
+      }]
     },
     "about": {
       "title": "#about me",
