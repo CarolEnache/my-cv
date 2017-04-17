@@ -73,6 +73,13 @@ $class: 'experience';
   margin-bottom: 0.4rem;
 }
 
+.#{$class}-responsability-list-item,
+.#{$class}-responsability-list-summary {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  // text-align: justify;
+}
+
 .#{$class}-responsability-list-item {
   // make the list item lose touch with body
   // and make ot sit centered
@@ -91,9 +98,6 @@ $class: 'experience';
     background-color: darken($color-danube, 5%);
   }
 }
-
-
-
 
 // using the adjacent selector "+" to apply CSS properties
 // to the next sibling element based on the checked state of the first elemnt
@@ -115,6 +119,6 @@ $class: 'experience';
 }
 
 .#{class}-list-radio + .#{$class}-list-header + .#{$class}-list-body {
-  max-height: 100rem;
+  max-height: 300rem;
   border: 0.1rem solid darken($color-blue-zodiac, 10);
 }
