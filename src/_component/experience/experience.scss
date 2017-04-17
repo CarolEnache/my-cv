@@ -11,9 +11,9 @@ $class: 'experience';
 .#{$class}-list-header {
   // make the lsit header full width
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   // and create some white space between text and margins
-  padding: 1rem;
+  padding: 1.5rem;
   // set the background color
   background-color: $color-blue-zodiac;
   // set the text color to be in contrast with the background color-blue-zodiac
@@ -44,6 +44,10 @@ $class: 'experience';
   display: none;
 }
 
+.#{$class}-list-company {
+  font-weight: bold;
+}
+
 .#{$class}-list-date {
   font-style: italic;
 }
@@ -52,7 +56,7 @@ $class: 'experience';
 .#{$class}-list-company,
 .#{$class}-responsability-list-item,
 .#{$class}-list-summary {
-  padding: 0.5rem;
+  padding: 1.2rem;
 }
 
 .#{$class}-list-info {
@@ -74,6 +78,8 @@ $class: 'experience';
   // and make ot sit centered
   width: 98%;
   margin: 0 auto;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
 
   // Alternate background color using even and odd
   // parametres of nth-child pseudo selector
