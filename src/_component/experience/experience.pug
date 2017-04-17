@@ -6,6 +6,7 @@
     //- (the one that follows next to the right of the word "each")
     each experience in section.experience.content
       if experience.type === 'list'
+        input.experience-list-radio(type="radio", name="experience-list", id="experience-list-close")
         //- Loop through each list item in the experience list content
         //- assign the value to listItem variable an dalso keep tack
         //- of the current iteration step with the key value 
