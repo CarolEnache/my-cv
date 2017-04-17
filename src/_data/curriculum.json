@@ -4,6 +4,44 @@
     "pageDescription": "Curriculum Vitae - Carol Enache"
   },
   "section": {
+    "skill": {
+      "title": "my skills",
+      "content": [{
+        "type": "list",
+        "title": "front end",
+        "list": [
+          "HTML 5",
+          "CSS 3",
+          "Bootstrap",
+          "JavaScript",
+          "SEO",
+          "Jade",
+          "jQuery",
+          "Gulp",
+          "Yeoman",
+          "Sass",
+          "Photoshop"
+        ]
+      }, {
+        "type": "list",
+        "title": "back end",
+        "list": [
+          "JSON",
+          "Git",
+          "NodeJS"
+        ]
+      }, {
+        "type": "list",
+        "title": "other",
+        "list": [
+          "Windows",
+          "Mac",
+          "Word",
+          "Excel",
+          "PowerPoint"
+        ]
+      }]
+    },
     "experience": {
       "title": "experinece",
       "content": [{
