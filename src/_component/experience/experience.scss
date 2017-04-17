@@ -7,3 +7,48 @@ $class: 'experience';
 .#{$class}-section-title{
   @extend %section-title;
 }
+
+.#{$class}-list-header {
+  // make the lsit header full width
+  display: block;
+  // and create some white space between text and margins
+  padding: 0.5rem;
+  // set the background color
+  background-color: $color-blue-zodiac;
+  // set the text color to be in contrast with the background color-blue-zodiac
+  color: $color-white;
+}
+
+.#{class}-list-body {
+  // use max-height and overflow CSS trick
+  // to make a PURE CSS accordion
+  max-height: 0;
+  overflow: hidden;
+  display: block;
+  // add a quick animation of a quarter of a second
+  // the checked / not checked state will make elements
+  // transition form 0 height to actual height or the other way around
+  transition: 0.25s;
+}
+
+// using the adjacent selector "+" to apply CSS properties
+// to the next sibling element based on the checked state of the first elemnt
+// Exapmle:
+// <section>
+//  <input type="radio">
+//  <div>text</div>
+//  <input type="radio">
+//  <div>text</div>
+// </section>
+// in the example above the input and div elemnts are all
+// sibling, because they are on the same level and children on the
+// same parent
+.#{$class}-list-radio:checked + .#{$class}-list-header {
+  // change the color of the background for the selected
+  // header experience
+  background-color: $color-denim;
+}
+
+.#{class}-list-radio + .#{$class}-list-header + .#{$class}-list-body {
+  max-height: 56rem;
+}
