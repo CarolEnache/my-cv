@@ -28,6 +28,11 @@ $class: 'experience';
   }
 }
 
+.resume-icon-plus {
+  float:right;
+  transform: rotate(45deg);
+}
+
 .#{class}-list-body {
   // use max-height and overflow CSS trick
   // to make a PURE CSS accordion
@@ -117,6 +122,7 @@ $class: 'experience';
   background-color: $color-denim;
   border-bottom: none;
 }
+
 
 .#{class}-list-radio + .#{$class}-list-header + .#{$class}-list-body {
   max-height: 300rem;
