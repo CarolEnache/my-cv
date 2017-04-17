@@ -2,27 +2,12 @@
 .menu
   .menu-call
     div
-      a(href="#menu")
+      a.menu-link(href=`#${section.menu.action.url}`)
         span.resume-icon-menu3
   .menu-list
     ul
-      li
-        a(href="#home")
-          span.resume-icon-home
-          span Home
-      li
-        a(href="#about")
-          span.resume-icon-user-tie
-          span About
-      li
-        a(href="#experience")
-          span.resume-icon-airplane
-          span Experience
-      li
-        a(href="#skill")
-          span.resume-icon-hammer
-          sapn Skills
-      li
-        a(href="#client")
-          span.resume-icon-briefcase
-          span Clients 
+      each menuItem in section.menu.list
+        li
+          a(href=`#${menuItem.url}`)
+            span(class=menuItem.icon)
+            span #{menuItem.label}
