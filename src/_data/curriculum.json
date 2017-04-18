@@ -115,7 +115,7 @@
         "link": [{
           "url": "https://github.com/CarolEnache/my-resume",
           "icon": "rss2",
-          "text": "Click to visit the Blog page"
+          "text": "Click to visit the Blog page        "
         }]
       }, {
         "type": "text",
@@ -125,8 +125,8 @@
         ]
       }, {
         "type": "link",
-        "title": "Please help yoursef to more info",
-        "text": ["some text"],
+        "title": "Please help yoursef to more information",
+        "text": [""],
         "link": [{
           "url": "https://github.com/CarolEnache/my-cv",
           "icon": "github",
