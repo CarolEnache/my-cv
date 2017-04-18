@@ -26,10 +26,6 @@
         "label": "skill",
         "url": "skill",
         "icon": "resume-icon-hammer"
-      }, {
-        "label": "client",
-        "url": "client",
-        "icon": "resume-icon-briefcase"
       }]
     },
     "skill": {
