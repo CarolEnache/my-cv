@@ -132,7 +132,7 @@
           "icon": "github",
           "text": "Click to visit the Github project source"
         }, {
-          "url": "src/asset/doc/Carol Enache CV 2.pdf",
+          "url": "asset/doc/Carol Enache CV 2.pdf",
           "icon": "file-pdf",
           "text": "Click to download PDF version"
         }]
