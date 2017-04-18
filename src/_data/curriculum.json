@@ -123,6 +123,19 @@
         "text": [
           "Lorem ipsum dolor sit amet, at vim modo quot rebum.Lorem ipsum dolor sit amet, at vim modo quot rebum.Lorem ipsum dolor sit amet, at vim modo quot rebum."
         ]
+      }, {
+        "type": "link",
+        "title": "Please help yoursef to more info",
+        "text": ["some text"],
+        "link": [{
+          "url": "https://github.com/CarolEnache/my-cv",
+          "icon": "github",
+          "text": "Click to visit the Github project source"
+        }, {
+          "url": "src/asset/doc/Carol Enache CV 2.pdf",
+          "icon": "file-pdf",
+          "text": "Click to download PDF version"
+        }]
       }]
     },
     "home": {
