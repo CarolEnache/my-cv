@@ -9,6 +9,8 @@ html
     //- so we make use of it below
     if config.entry.css.external
       link(rel="stylesheet", href="style.css")
+    if config.entry.css.inline
+      link(rel="stylesheet", href=`${inlinePath}`, inline)
   body
     .container
       block content
