@@ -98,8 +98,12 @@
     "about": {
       "title": "#about me",
       "content": [{
+        "type": "empty1"
+      }, {
         "type": "avatar",
         "url": "asset/image/temporary-photo.jpg"
+      }, {
+        "type": "empty2"
       }, {
         "type": "text",
         "title": "Carol Enache",
