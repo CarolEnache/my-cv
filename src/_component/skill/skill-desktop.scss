@@ -1,0 +1,25 @@
+@media (min-width: 1280px){
+
+  .#{$class}-section-title{
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  .#{$class}-wrapper{
+    // display: flex;
+    max-width: 40%;
+    margin: auto;
+    text-align: center;
+  }
+  .#{$class}-title{
+    margin-top: 1rem;
+    // padding: 1rem 0 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .#{$class}-item{
+    font-size: 0.5rem;
+    color:$color-white;
+  }
+
+}
