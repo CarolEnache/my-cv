@@ -114,7 +114,7 @@
         "type": "link",
         "title": "Portfolio",
         "text": [
-          "To discover more about my work and research please visit my Blog. "
+          "To discover more about my work and research, please visit my Blog. By clicking the button below you will navigate directly to my personal blog where I share my passion for technology. I am publishing on weekly basis new discoveries I have made in coding and programing in general. Your feedback is important to me, please feel free to leave your comments."
         ],
         "link": [{
           "url": "https://github.com/CarolEnache/my-resume",
@@ -130,7 +130,9 @@
       }, {
         "type": "link",
         "title": "Please help yoursef to more information",
-        "text": [""],
+        "text": [
+          "The buttons below will give you direct access to the source of this web site and the PDF version of my curriculum vitae."
+        ],
         "link": [{
           "url": "https://github.com/CarolEnache/my-cv",
           "icon": "github",
