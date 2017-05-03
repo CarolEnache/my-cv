@@ -12,7 +12,7 @@
 }
 .#{$class}-avatar {
   @extend %avatar-common;
-  max-width: 50%;
+  max-width: 100%;
   border: 0.5rem solid $color-white;
 }
 
