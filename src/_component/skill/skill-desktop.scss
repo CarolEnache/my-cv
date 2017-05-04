@@ -1,7 +1,7 @@
 @media (min-width: 1280px){
 
   .#{$class}{
-    background-color: $color-snuf;
+    background-color: $color-spring-wood;
   }
 
   .#{$class}-section-title{
@@ -22,7 +22,7 @@
     line-height: 2rem;
   }
   .#{$class}-item{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     color:$color-white;
   }
 

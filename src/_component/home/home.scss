@@ -1,6 +1,11 @@
+
 @import 'home-message-box';
+// @import 'home-tablet';
+// @import 'home-smartphone';
+@import 'home-desktop';
 
 $class: 'home';
+
 
 %uppercase {
   text-transform: uppercase;

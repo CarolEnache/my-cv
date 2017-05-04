@@ -4,7 +4,7 @@
     margin: auto;
   }
   .#{$class}-list-item:hover {
-    background-color: $color-charlote;
+    background-color: $color-malibu;
   }
 
   .#{$class}-list-link{
@@ -15,4 +15,9 @@
   .#{$class}-link:hover{
     background-color: $color-malibu;
   }
+
+  .#{$class}{
+    background-color: $color-spring-wood;
+  }
+
 }
