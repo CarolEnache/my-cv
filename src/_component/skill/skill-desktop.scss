@@ -1,5 +1,9 @@
 @media (min-width: 1280px){
 
+  .#{$class}{
+    background-color: $color-snuf;
+  }
+
   .#{$class}-section-title{
     font-size: 2rem;
     margin-bottom: 0rem;

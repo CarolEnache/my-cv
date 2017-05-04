@@ -1,5 +1,22 @@
 @media (min-width: 1280px){
-  .container-flex {
-    display: flex;
-    flex-direction: column;
+
+  .#{$class}-wrapper{
+    width: 60%;
+    margin: auto;
+  }
+
+  .#{$class}-section-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .#{$class}-list-header{
+    font-size: 0.7rem;
+  }
+
+  .#{$class}-list-header:hover{
+    background-color: $color-denim;
+    border-bottom: .1rem sold $color-blue-zodiac;
+  }
+
 }
