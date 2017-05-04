@@ -63,7 +63,7 @@ $class: 'note';
   list-style-type: disc;
 }
 
-@media all and (orientation: landscape) {
+@media (max-width: 740px) and (orientation: landscape) {
   .#{$class}-label {
     display: inherit;
   }
