@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'my-resume';
-  src:  url('fonts/my-resume.eot?oyxauw');
-  src:  url('fonts/my-resume.eot?oyxauw#iefix') format('embedded-opentype'),
+  src:
     url('asset/font/my-resume.ttf?oyxauw') format('truetype'),
     url('asset/font/my-resume.woff?oyxauw') format('woff'),
     url('asset/font/my-resume.svg?oyxauw#icomoon') format('svg');
@@ -9,7 +8,7 @@
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="resume-icon-"], [class*="resume-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'my-resume' !important;
   speak: none;
