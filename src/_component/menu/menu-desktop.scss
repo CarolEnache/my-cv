@@ -1,6 +1,6 @@
 @media (min-width: 780px){
   .#{$class}-list{
-    width: 20%;
+    width: 60%;
     margin: auto;
   }
   .#{$class}-list-item:hover {
@@ -16,8 +16,8 @@
     background-color: $color-malibu;
   }
 
-  .#{$class}{
-    background-color: $color-spring-wood;
-  }
+  // .#{$class}{
+  //   background-color: $color-spring-wood;
+  // }
 
 }

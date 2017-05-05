@@ -17,6 +17,6 @@
             p.about-paragraph #{paragraph}
             .about-link-list
               each link in content.link
-                a.about-link(href=link.url)
+                a.about-link(href=link.url target="_blank")
                   span.about-link-description #{link.text}
                   span(class=`resume-icon-${link.icon}`)
