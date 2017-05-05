@@ -4,6 +4,21 @@
     "pageDescription": "Curriculum Vitae - Carol Enache"
   },
   "section": {
+    "footer": {
+      "contact": [{
+        "label": "07496 046 247",
+        "url": "tel:07496046247",
+        "icon": "resume-icon-mobile"
+      }, {
+        "label": "enache.carol@gmail.com",
+        "url": "mailto:enache.carol@gmail.com",
+        "icon": "resume-icon-envelop"
+
+      }, {
+        "label": "Central London",
+        "icon": "resume-icon-location"
+      }]
+    },
     "menu": {
       "action": {
         "label": "menu",
