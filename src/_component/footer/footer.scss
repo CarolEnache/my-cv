@@ -1,7 +1,10 @@
 $class: 'footer';
 
-@media (min-width: 780px){
+@media (max-width: 780px){
   .#{$class} {
     display: none;
   }
+}
+.#{$class}-wrapper{
+  display: flex;
 }
