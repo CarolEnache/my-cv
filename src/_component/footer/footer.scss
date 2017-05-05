@@ -2,6 +2,6 @@ $class: 'footer';
 
 @media (min-width: 780px){
   .#{$class} {
-    display: flex;
+    display: none;
   }
 }

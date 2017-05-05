@@ -1,1 +1,24 @@
 .footer
+  .footer-wrapper
+    .footer-contact
+      ul.footer-contact-list
+        each footerItem in section.footer.contact
+          li.footer-conatct-lits
+            a.footer-contact-list-item(href=`#{footerItem.url}`)
+              span(class=footerItem.icon)
+              span #{footerItem.label}        
+    .footer-social
+      ul.footer-social-list
+        each social, key in data.curriculum.section.home.author.social
+          li.footer-social-item
+            a.footer-social-link(href=`#{social.icon.url}`)
+              span(class='resume-icon-' + social.icon)
+    .footer-menu
+      ul.footer-menu-list
+        each menuItem in section.menu.list
+          li.footer-menu-item
+            a.footer-menu-list-link(href=`#menuItem.url`)
+              span(class=menuItem.icon)
+              span #{menuItem.label}
+  p &copy Carol Enache
+    
