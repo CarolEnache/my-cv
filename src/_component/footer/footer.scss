@@ -5,6 +5,40 @@ $class: 'footer';
     display: none;
   }
 }
-.#{$class}-wrapper{
-  display: flex;
+
+.#{$class}{
+  position: relative;
+  margin-top: 5rem;
 }
+.#{$class}-wrapper{
+  position: absolute;
+  background-color: $color-blue-zodiac;
+  color: $color-white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.#{$class}-section{
+  color: $color-spring-wood;
+}
+.#{$class}-social-list{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.#{$class}-contact-link,
+.#{$class}-footer-social-link,
+.#{$class}-menu-list-link{
+  color: $color-spring-wood;
+  text-decoration: none;
+}
+
+// .#{$class}-copy{
+//   position: relative;
+//   bottom: 0;
+//   left: 50%;
+// }

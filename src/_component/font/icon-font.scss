@@ -1,16 +1,17 @@
 @font-face {
-  font-family: 'my-resume';
-  src:
-    url('asset/font/my-resume.ttf?oyxauw') format('truetype'),
-    url('asset/font/my-resume.woff?oyxauw') format('woff'),
-    url('asset/font/my-resume.svg?oyxauw#icomoon') format('svg');
+  font-family: 'icomoon';
+  src:  url('asset/font/icomoon.eot?xrryuu');
+  src:  url('asset/font/icomoon.eot?xrryuu#iefix') format('embedded-opentype'),
+    url('asset/font/icomoon.ttf?xrryuu') format('truetype'),
+    url('asset/font/icomoon.woff?xrryuu') format('woff'),
+    url('asset/font/icomoon.svg?xrryuu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="resume-icon-"], [class*="resume-icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'my-resume' !important;
+  font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -23,52 +24,51 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.resume-icon-home:before {
+.icon-home:before {
   content: "\e900";
 }
-.resume-icon-envelop:before {
+.icon-blog:before {
+  content: "\e909";
+}
+.icon-envelop:before {
   content: "\e945";
 }
-.resume-icon-location:before {
-  content: "\e947";
+.icon-location2:before {
+  content: "\e948";
 }
-
-.resume-icon-mobile:before {
+.icon-mobile:before {
   content: "\e958";
 }
-.resume-icon-user-tie:before {
+.icon-user-tie:before {
   content: "\e976";
 }
-.resume-icon-hammer:before {
+.icon-hammer:before {
   content: "\e996";
 }
-.resume-icon-airplane:before {
+.icon-airplane:before {
   content: "\e9af";
 }
-.resume-icon-menu3:before {
+.icon-menu3:before {
   content: "\e9bf";
 }
-.resume-icon-plus:before {
+.icon-plus:before {
   content: "\ea0a";
 }
-.resume-icon-facebook2:before {
+.icon-facebook2:before {
   content: "\ea91";
 }
-.resume-icon-twitter:before {
+.icon-twitter:before {
   content: "\ea96";
 }
-.resume-icon-rss2:before {
-  content: "\ea9c";
-}
-.resume-icon-github:before {
+.icon-github:before {
   content: "\eab0";
 }
-.resume-icon-skype:before {
+.icon-skype:before {
   content: "\eac5";
 }
-.resume-icon-linkedin:before {
+.icon-linkedin:before {
   content: "\eac9";
 }
-.resume-icon-file-pdf:before {
+.icon-file-pdf:before {
   content: "\eadf";
 }

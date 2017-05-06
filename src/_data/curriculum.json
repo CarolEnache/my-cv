@@ -8,39 +8,39 @@
       "contact": [{
         "label": "07496 046 247",
         "url": "tel:07496046247",
-        "icon": "resume-icon-mobile"
+        "icon": "icon-mobile"
       }, {
         "label": "enache.carol@gmail.com",
         "url": "mailto:enache.carol@gmail.com",
-        "icon": "resume-icon-envelop"
+        "icon": "icon-envelop"
 
       }, {
         "label": "Central London",
-        "icon": "resume-icon-location"
+        "icon": "icon-location2"
       }]
     },
     "menu": {
       "action": {
         "label": "menu",
         "url": "menu",
-        "icon": "resume-icon-menu3"
+        "icon": "icon-menu3"
       },
       "list": [{
         "label": "home",
         "url": "home",
-        "icon": "resume-icon-home"
+        "icon": "icon-home"
       }, {
         "label": "about",
         "url": "about",
-        "icon": "resume-icon-user-tie"
+        "icon": "icon-user-tie"
       }, {
         "label": "experience",
         "url": "experience",
-        "icon": "resume-icon-airplane"
+        "icon": "icon-airplane"
       }, {
         "label": "skill",
         "url": "skill",
-        "icon": "resume-icon-hammer"
+        "icon": "icon-hammer"
       }]
     },
     "skill": {
@@ -113,12 +113,8 @@
     "about": {
       "title": "#about me",
       "content": [{
-        "type": "empty1"
-      }, {
         "type": "avatar",
         "url": "asset/image/temporary-photo.jpg"
-      }, {
-        "type": "empty2"
       }, {
         "type": "text",
         "title": "Carol Enache",
@@ -133,7 +129,7 @@
         ],
         "link": [{
           "url": "https://github.com/CarolEnache/quick-blog",
-          "icon": "rss2",
+          "icon": "blog",
           "text": "Click to visit the Blog page        "
         }]
       }, {
