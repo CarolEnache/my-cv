@@ -5,7 +5,7 @@
         ul.footer-list
           each footerItem in section.footer.contact
             li.footer-item
-              a.footer-contact-link(href=`${footerItem.url}`)
+              a.footer-list-link(href=`${footerItem.url}`)
                 span(class=footerItem.icon)
                 span.footer-label #{footerItem.label}        
     .footer-section
@@ -13,7 +13,7 @@
         ul.footer-social-list
           each social, key in data.curriculum.section.home.author.social
             li.footer-social-item
-              a.footer-social-link(href=social.url target="_blank")
+              a.footer-list-link(href=social.url target="_blank")
                 span.footer-icon(class='icon-' + social.icon)
     .footer-section
       .footer-menu 
