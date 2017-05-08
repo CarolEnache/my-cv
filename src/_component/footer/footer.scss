@@ -9,6 +9,7 @@ $class: 'footer';
 .#{$class}{
   position: relative;
   margin-top: 5rem;
+  font-size: 0.7rem;
 }
 .#{$class}-wrapper{
   position: absolute;
@@ -19,22 +20,53 @@ $class: 'footer';
   right: 0;
   height: 6rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding:0.5rem;
 }
 
 .#{$class}-section{
-  color: $color-spring-wood;
+  color: $color-spring-wood
 }
+
+.#{$class}-section:nth-child(2){
+  padding-right: 5rem;
+}
+
+.#{$class}-social{
+  margin-top: 20%;
+}
+
 .#{$class}-social-list{
   display: flex;
   align-items: center;
   width: 100%;
 }
+
+.#{$class}-icon{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.#{$class}-icon:hover{
+  color: $color-malibu;
+}
+
 .#{$class}-contact-link,
-.#{$class}-footer-social-link,
-.#{$class}-menu-list-link{
+.#{$class}-social-link,
+.#{$class}-list-link{
   color: $color-spring-wood;
   text-decoration: none;
+}
+.#{$class}-list-link:hover{
+  color: $color-malibu;
+}
+
+.#{$class}-item{
+  padding: 0.3rem;
+  // align-items: center;
+}
+.#{$class}-label {
+  margin: 0.5rem;
 }
 
 // .#{$class}-copy{
