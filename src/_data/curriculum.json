@@ -136,7 +136,7 @@
         "type": "text",
         "title": "Achivement",
         "text": [
-          " Building a page that scores 100/100 on Google Page Speed Insights is probably the biggest achievement in my carrier as a Web Developer so far."
+          " Building a page that scores 100/100 on <strong><a href=\"https://developers.google.com/speed/pagespeed/insights/?url=ecarol.uk\">Google Page Speed</a> Insights</strong> is probably the biggest achievement in my carrier as a Web Developer so far."
         ]
       }, {
         "type": "link",
@@ -149,7 +149,7 @@
           "icon": "github",
           "text": "Click to visit the Github project source"
         }, {
-          "url": "asset/doc/Carol Enache CV 2.pdf",
+          "url": "asset/doc/Carol-Enache.pdf",
           "icon": "file-pdf",
           "text": "Click to download PDF version"
         }]

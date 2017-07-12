@@ -10,7 +10,7 @@
         if content.type === 'text'
           h1.about-title #{content.title}
           each paragraph in content.text
-            p.about-paragraph #{paragraph}
+            p.about-paragraph !{paragraph}
         if content.type === 'link'
           h2.about-title #{content.title}
           each paragraph in content.text
