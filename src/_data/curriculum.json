@@ -82,30 +82,22 @@
       }]
     },
     "experience": {
-      "title": "experinece",
+      "title": "experience",
       "content": [{
         "type": "list",
         "list": [{
           "date": "2016 Jun - present",
           "jobTitle": "Web developer",
-          "company": "Smart Yii Limited",
+          "company": "Bitbee Ltd – London",
           "summary": "Web developer & designer",
           "responsability": [
-            "Lorem ipsum dolor sit amet, pri impedit noluisse accommodare id. Malorum commune eu pri",
-            "Solet deseruisse et est, ex eum animal convenire petentium. Nam amet enim praesent ad.",
-            "Cum eu sumo ipsum scribentur, ei dolorem incorrupte vis. Democritum definiebas eum te, eius vulputate vituperatoribus ex eum",
-            "Vix ut alia liber inermis, quo patrioque aliquando vituperatoribus eu. Ea vim rebum nostrum tacimates,"
-          ]
-        }, {
-          "date": "2017 Jun - present",
-          "jobTitle": "Web developer",
-          "company": "Smart Yii Limited",
-          "summary": "Web developer & designer",
-          "responsability": [
-            "Lorem ipsum dolor sit amet, pri impedit noluisse accommodare id. Malorum commune eu pri",
-            "Solet deseruisse et est, ex eum animal convenire petentium. Nam amet enim praesent ad.",
-            "Cum eu sumo ipsum scribentur, ei dolorem incorrupte vis. Democritum definiebas eum te, eius vulputate vituperatoribus ex eum",
-            "Vix ut alia liber inermis, quo patrioque aliquando vituperatoribus eu. Ea vim rebum nostrum tacimates,"
+            "Build products using HTML/CSS/JS and all other technologies listed in 'Core skills'",
+            "Write and maintain Web Applications",
+            "Using development tools to write and test code to develop solutions",
+            "Analyze user needs to determine technical requirements",
+            "Applying off-page SEO",
+            "Meeting clients",
+            "Discussing clients’ requirements and proposed solutions"
           ]
         }]
       }]
@@ -149,7 +141,7 @@
           "icon": "github",
           "text": "Click to visit the Github project source"
         }, {
-          "url": "asset/doc/Carol-Enache.pdf",
+          "url": "asset/doc/carol-enache-cv.pdf",
           "icon": "file-pdf",
           "text": "Click to download PDF version"
         }]
