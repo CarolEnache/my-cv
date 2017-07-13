@@ -106,7 +106,7 @@
       "title": "#about me",
       "content": [{
         "type": "avatar",
-        "url": "asset/image/temporary-photo.jpg"
+        "url": "asset/image/photo_Fotor.png"
       }, {
         "type": "text",
         "title": "Carol Enache",
@@ -128,7 +128,7 @@
         "type": "text",
         "title": "Achivement",
         "text": [
-          " Building a page that scores 100/100 on <strong><a href=\"https://developers.google.com/speed/pagespeed/insights/?url=ecarol.uk\">Google Page Speed</a> Insights</strong> is probably the biggest achievement in my carrier as a Web Developer so far."
+          " Building a page that scores 100/100 on <strong><a href=\"https://developers.google.com/speed/pagespeed/insights/?url=ecarol.uk\" target=\"_blank\">Google Page Speed</a> Insights</strong> is probably the biggest achievement in my carrier as a Web Developer so far."
         ]
       }, {
         "type": "link",
