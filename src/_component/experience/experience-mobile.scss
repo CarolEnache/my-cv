@@ -28,8 +28,9 @@
     border-bottom: none;
   }
 
-  .resume-icon-plus {
+  .icon-plus {
     float: right;
+    transform: rotate(45deg);
   }
 }
 
@@ -142,11 +143,11 @@
     display: inherit;
   }
 
-  & > .resume-icon-plus {
+  & > .icon-plus {
     display: none;
   }
 
-  .resume-icon-plus {
+  .icon-plus {
     transform: rotate(45deg);
   }
 }
