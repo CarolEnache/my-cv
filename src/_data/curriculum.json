@@ -53,6 +53,7 @@
           "CSS 3",
           "Bootstrap",
           "JavaScript",
+          "React",
           "SEO",
           "Jade",
           "jQuery",
@@ -66,6 +67,7 @@
         "title": "back end",
         "list": [
           "JSON",
+          "Firebase",
           "Git",
           "NodeJS"
         ]
@@ -111,7 +113,7 @@
         "type": "text",
         "title": "Carol Enache",
         "text": [
-          "An ambitious and highly motivated Web Developer who wants to progress further. I am a team player that has a desire to create great user experiences, demonstrate analytical thinking and have excellent communication skills. I have a passion for technology and I am keen on progress."
+          "My passion is to create the web and translate designs into front-end interfaces. I am a team player that has a desire to create great user experiences, demonstrate analytical thinking with excellent communication skills. I have a passion for technology and I am keen on progress. I love to meet like minded people, so: Let’s have a chat!"
         ]
       }, {
         "type": "link",
@@ -141,7 +143,7 @@
           "icon": "github",
           "text": "Click to visit the Github project source"
         }, {
-          "url": "asset/doc/carol-enache-cv.pdf",
+          "url": "asset/doc/CarolEnacheCV.docx",
           "icon": "file-pdf",
           "text": "Click to download PDF version"
         }]
